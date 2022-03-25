@@ -20,7 +20,7 @@ ASSETS_PATH = os.path.join(".", "./model")
 
 #@app.post('/predict')
 
-@app.get('/predict')
+@app.route('/predict')
 def predict():
     return "hello word"
 
