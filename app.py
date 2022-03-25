@@ -14,7 +14,7 @@ from flask import Flask, request
 app = Flask(__name__)
 
 # Path to signature.json and model file
-ASSETS_PATH = os.path.join(".", "./model")
+#ASSETS_PATH = os.path.join(".", "./model")
 #TF_MODEL = TFModel(ASSETS_PATH)
 
 
