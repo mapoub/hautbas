@@ -18,7 +18,9 @@ ASSETS_PATH = os.path.join(".", "./model")
 #TF_MODEL = TFModel(ASSETS_PATH)
 
 
-@app.post('/predict')
+#@app.post('/predict')
+
+@app.get('/predict')
 def predict():
     return "hello word"
 
