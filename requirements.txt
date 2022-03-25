@@ -1,4 +1,5 @@
 flask==2.0.2
 pillow==8.4.0
-tensorflow==2.8.0
-requests==2.26.0 # Used in testing.py
+tensorflow==2.5.0
+gunicorn
+#requests==2.26.0 # Used in testing.py
